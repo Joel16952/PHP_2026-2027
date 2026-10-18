@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Botiga</title>
+</head>
+<body>
+    <h1>Botiga</h1>
+
+    <h2>Samarreta local Sevilla FC — 95 €</h2>
+
+    <form action="cistella_compra.php" method="post">
+        <input type="hidden" name="producte" value="samarreta">
+
+        <label for="samarreta">Quantitat:</label>
+        <input type="number" id="samarreta" name="quantitat">
+
+        <button type="submit">Afegir a la cistella</button>
+    </form>
+
+    <h2>Pantalons locals — 30 €</h2>
+
+    <form action="cistella_compra.php" method="post">
+        <input type="hidden" name="producte" value="pantalons">
+
+        <label for="pantalons">Quantitat:</label>
+        <input type="number" id="pantalons" name="quantitat">
+
+        <button type="submit">Afegir a la cistella</button>
+    </form>
+
+    <br>
+
+    <a href="cistella_compra.php">Finalitzar compra</a>
+</body>
+</html>
